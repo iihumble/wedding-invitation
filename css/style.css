@@ -415,7 +415,7 @@ section {
 }
 
 .bg-color, .owl-carousel .owl-nav button.owl-next:hover, .owl-carousel .owl-nav button.owl-prev:hover, .pagination ul#next li a:hover, .pagination ul#previous li a:hover, .widget-newsletter form button:hover, .widget-search form button:hover {
-    background-color: #807626;
+    background: linear-gradient(135deg, #807626, #c0a74e, #dccc7f);
     color: #fff
 }
 
@@ -441,7 +441,7 @@ section {
     position: absolute;
     left: 0;
     top: 0;
-    background-color: #807626;
+    background: linear-gradient(135deg, #807626, #c0a74e, #dccc7f);
     z-index: -1;
     -khtml-opacity: 0.8;
     -moz-opacity: 0.8;
@@ -1601,7 +1601,8 @@ section {
     position: absolute;
     left: 0;
     top: 0;
-    background-color: #807626;
+    background: linear-gradient(135deg, #807626, #c0a74e, #d2c279);
+
     z-index: 0;
     -khtml-opacity: 0.8;
     -moz-opacity: 0.8;
@@ -2346,7 +2347,7 @@ section {
 }
 
 .timeline .date, .timeline .description {
-    background-color: #807626;
+    background: linear-gradient(135deg, #807626, #c0a74e, #dccc7f);
     z-index: 10;
     display: inline-block
 }
@@ -3011,7 +3012,7 @@ section {
 }
 
 .map-info-container .info-wrapper .location-info {
-    background-color: #807626;
+    background: linear-gradient(135deg, #807626, #c0a74e, #dccc7f);
     border: 10px solid #fff;
     padding: 30px;
     display: inline-block;
@@ -3271,7 +3272,7 @@ section {
 .map_pins_full {
     padding: 11px 0;
     text-align: center;
-    background-color: #807626;
+    background: linear-gradient(135deg, #807626, #c0a74e, #dccc7f);
     color: #fff
 }
 
@@ -3620,7 +3621,7 @@ section.side-flowers {
 
 .progress-wrapper .progress .progress-bar {
     width: 0;
-    background-color: #807626;
+    background: linear-gradient(135deg, #807626, #c0a74e, #dccc7f);
     -moz-transition: width .5s ease-in-out;
     -o-transition: width .5s ease-in-out;
     -webkit-transition: width .5s ease-in-out;
@@ -3772,7 +3773,7 @@ section.side-flowers {
     padding-top: 120px;
     padding-bottom: 60px;
     position: relative;
-    background-color: #807626;
+    background: linear-gradient(135deg, #807626, #c0a74e, #dccc7f);
     background-attachment: fixed;
     color: #fff
 }
@@ -3784,7 +3785,7 @@ section.side-flowers {
     position: absolute;
     left: 0;
     top: 0;
-    background-color: #807626;
+    background: linear-gradient(135deg, #807626, #c0a74e, #dccc7f);
     z-index: 0;
     -khtml-opacity: 0.75;
     -moz-opacity: 0.75;
@@ -3929,7 +3930,7 @@ section.side-flowers {
     padding: 8px 35px;
     margin: 0 0 0 -20px;
     color: #fff;
-    background-color: #807626;
+    background: linear-gradient(135deg, #807626, #c0a74e, #dccc7f);
     border: 10px solid #fff;
     font-family: "Playfair Display", serif;
     font-size: 19pt
@@ -4521,7 +4522,8 @@ section.side-flowers {
 }
 
 .widget-newsletter {
-    background-color: #807626;
+    background: linear-gradient(135deg, #807626, #c0a74e, #dccc7f);
+
     color: #fff;
     padding: 30px;
     text-align: center;
