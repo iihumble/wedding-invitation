@@ -369,7 +369,7 @@ section {
 }
 
 .bg-color .sn-icons a, .bg-color h1, .bg-color h2, .bg-color h3, .bg-color h4, .bg-color h5, .bg-color i, .bmaid-gmen-color .image .hover-info .sn-icons a, .bmaid-gmen-color .image .hover-info h3, .btn-light, .hero-subtitle.light, .hero-title.light, .light .nav .open > a, .light .nav .open > a:focus, .light .nav .open > a:hover, .light .nav > li > a:focus, .light .nav > li > a:hover, .light .navbar-nav > li > a.active, .light .owl-item .item, .light .owl-item .item .author h3, .menu-wrapper h2.section-title-lg, .neela-quote.light, .section-desc.light, .section-title-lg.light, .section-title.light, .wedding-details.light, .wedding-details.light h4, .wedding-details.light i {
-    color: #fff
+    color: #4c4747
 }
 
 .section-title.light::after {
@@ -415,13 +415,14 @@ section {
 }
 
 .bg-color, .owl-carousel .owl-nav button.owl-next:hover, .owl-carousel .owl-nav button.owl-prev:hover, .pagination ul#next li a:hover, .pagination ul#previous li a:hover, .widget-newsletter form button:hover, .widget-search form button:hover {
-    background: linear-gradient(135deg, #807626, #c0a74e, #dccc7f);
+    background: linear-gradient(135deg, #807626, #c0a74e, #f1e08c);
+
     color: #fff
 }
 
 .bg-color a:not(.btn) {
-    color: #fff;
-    background: linear-gradient(#fff, #fff) 0 100% no-repeat;
+    color: #4C4747FF;
+    background: linear-gradient(135deg, #4c4747, #2f2c2c);
     background-size: 100% 1px;
     -moz-transition: background-size .3s ease-out, color .3s ease-out;
     -o-transition: background-size .3s ease-out, color .3s ease-out;
@@ -430,7 +431,7 @@ section {
 }
 
 .bg-color a:not(.btn):hover {
-    color: #fff;
+    color: #4C4747FF;
     background-size: 0 1px
 }
 
@@ -441,7 +442,8 @@ section {
     position: absolute;
     left: 0;
     top: 0;
-    background: linear-gradient(135deg, #807626, #c0a74e, #dccc7f);
+    background: linear-gradient(135deg, #807626, #c0a74e, #f1e08c);
+
     z-index: -1;
     -khtml-opacity: 0.8;
     -moz-opacity: 0.8;
@@ -594,7 +596,7 @@ section {
 
 .btn-light.disabled, .btn-light:active, .btn-light:disabled, .btn-light:focus, .btn-light:hover {
     background: rgba(255, 255, 255, .2);
-    border-color: #fff;
+    border-color: #4C4747FF;
     color: #fff
 }
 
@@ -605,7 +607,7 @@ section {
 }
 
 .btn-dark {
-    color: #fff;
+    color: #4C4747FF;
     background: rgba(115, 119, 123, .8);
     border: 2px solid #73777b
 }
@@ -905,7 +907,7 @@ section {
     position: absolute;
     left: -15px;
     bottom: -30px;
-    background-color: #fff;
+    background-color: #4C4747FF;
     z-index: 99
 }
 
@@ -1379,7 +1381,7 @@ section {
 }
 
 .light.sticky #nav-mobile-btn:active, .light.sticky #nav-mobile-btn:hover, .navbar-nav .dropdown-menu > li > a.active, .navbar-nav .dropdown-menu > li > a:focus, .navbar-nav .dropdown-menu > li > a:hover {
-    background-color: #fff;
+    background-color: #4C4747FF;
     color: #807626
 }
 
@@ -1440,7 +1442,7 @@ section {
 
 #nav-mobile-btn {
     border: 0;
-    color: #fff;
+    color: #4C4747FF;
     padding: 5px 0;
     margin-top: 14px;
     line-height: 1;
@@ -1601,7 +1603,7 @@ section {
     position: absolute;
     left: 0;
     top: 0;
-    background: linear-gradient(135deg, #807626, #c0a74e, #d2c279);
+    background: linear-gradient(135deg, #807626, #c0a74e, #f1e08c);
 
     z-index: 0;
     -khtml-opacity: 0.8;
@@ -1651,7 +1653,7 @@ section {
 }
 
 .hero-wrapper h2 {
-    color: #fff;
+    color: #4C4747FF;
     font-size: 18pt;
     text-transform: uppercase;
     margin-bottom: 15px
@@ -1670,7 +1672,7 @@ section {
     bottom: -34px;
     left: 50%;
     margin-left: -50px;
-    background-color: #fff
+    background-color: #4c4747
 }
 
 .hero-wrapper .hero-subtitle {
@@ -1822,7 +1824,7 @@ section {
 
 .countdown > div {
     display: inline-block;
-    color: #fff;
+    color: #4C4747FF;
     text-align: center;
     line-height: 1;
     padding: 0 22px;
@@ -1861,7 +1863,7 @@ section {
 }
 
 .free-wall .item {
-    background-color: #fff;
+    background-color: #4C4747FF;
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1932,7 +1934,7 @@ section {
     display: block;
     width: 100%;
     text-align: center;
-    color: #fff;
+    color: #4C4747FF;
     margin-bottom: 30px
 }
 
@@ -2073,7 +2075,7 @@ section {
     left: 50%;
     margin-left: -52.5px;
     color: #807626;
-    background-color: #fff;
+    background-color: #4C4747FF;
     width: 105px;
     height: 105px;
     text-align: center;
@@ -2200,7 +2202,7 @@ section {
     border-right-width: 42px;
     text-align: center;
     z-index: 1;
-    background-color: #fff;
+    background-color: #4C4747FF;
     -webkit-box-shadow: 0 0 5px 0 rgba(0, 0, 0, .1);
     -moz-box-shadow: 0 0 5px 0 rgba(0, 0, 0, .1);
     box-shadow: 0 0 5px 0 rgba(0, 0, 0, .1);
@@ -2337,7 +2339,7 @@ section {
     z-index: 1;
     text-align: center;
     width: 100%;
-    background-color: #fff;
+    background-color: #4C4747FF;
     margin-bottom: 70px
 }
 
@@ -2347,7 +2349,8 @@ section {
 }
 
 .timeline .date, .timeline .description {
-    background: linear-gradient(135deg, #807626, #c0a74e, #dccc7f);
+    background: linear-gradient(135deg, #807626, #c0a74e, #f1e08c);
+
     z-index: 10;
     display: inline-block
 }
@@ -2372,7 +2375,7 @@ section {
 .timeline .date .neela-style {
     --offset: 7px;
     --border-size: 1px;
-    color: #fff;
+    color: #4C4747FF;
     font-size: 18pt;
     position: relative;
     padding: 8px 18px
@@ -2403,7 +2406,7 @@ section {
 .timeline .description .neela-style {
     --offset: 9px;
     --border-size: 1px;
-    color: #fff;
+    color: #4C4747FF;
     position: relative;
     padding: 30px 20px
 }
@@ -2414,7 +2417,7 @@ section {
     margin: 0 auto 15px;
     position: relative;
     padding-bottom: 40px;
-    color: #fff;
+    color: #4C4747FF;
     display: inline-block
 }
 
@@ -2633,7 +2636,7 @@ section {
 }
 
 .invite {
-    color: #fff;
+    color: #4C4747FF;
     position: relative;
     padding: 0;
     display: flex;
@@ -2644,14 +2647,14 @@ section {
 }
 
 .invite.neela-style .h-lines {
-    border-top-color: #fff;
-    border-bottom-color: #fff;
+    border-top-color: #4C4747FF;
+    border-bottom-color: #4C4747FF;
     z-index: 0
 }
 
 .invite.neela-style .v-lines {
-    border-left-color: #fff;
-    border-right-color: #fff;
+    border-left-color: #4C4747FF;
+    border-right-color: #4C4747FF;
     z-index: 0
 }
 
@@ -2775,7 +2778,7 @@ section {
 }
 
 .invite .invite_info h5 {
-    color: #fff;
+    color: #4C4747FF;
     margin-top: 12px
 }
 
@@ -2852,19 +2855,19 @@ section {
 
 .menu-wrapper {
     padding: 60px 56px;
-    color: #fff;
+    color: #4C4747FF;
     z-index: 1
 }
 
 .map_pins, .marker {
-    background-color: #fff;
+    background-color: #4C4747FF;
     text-align: center
 }
 
 .menu-wrapper .neela-style {
     --offset: 10px;
     --border-size: 1px;
-    color: #fff;
+    color: #4C4747FF;
     position: relative;
     padding: 46px;
     z-index: 0
@@ -2937,14 +2940,14 @@ section {
 }
 
 .menu-wrapper .menu-items li h3 {
-    color: #fff;
+    color: #4C4747FF;
     text-transform: uppercase;
     font-size: 19pt;
     margin-bottom: 10px
 }
 
 .menu-wrapper .menu-items li h4 {
-    color: #fff;
+    color: #4C4747FF;
     text-transform: uppercase;
     font-size: 12pt;
     margin-top: 12px;
@@ -3012,7 +3015,8 @@ section {
 }
 
 .map-info-container .info-wrapper .location-info {
-    background: linear-gradient(135deg, #807626, #c0a74e, #dccc7f);
+    background: linear-gradient(135deg, #807626, #c0a74e, #f1e08c);
+
     border: 10px solid #fff;
     padding: 30px;
     display: inline-block;
@@ -3035,7 +3039,7 @@ section {
 .map-info-container .info-wrapper .location-info .neela-style {
     --offset: 9px;
     --border-size: 1px;
-    color: #fff;
+    color: #4C4747FF;
     position: relative;
     padding: 24px 12px
 }
@@ -3045,7 +3049,7 @@ section {
     text-align: left;
     margin: 0 auto 25px;
     position: relative;
-    color: #fff;
+    color: #4C4747FF;
     display: inline-block;
     font-family: "Playfair Display", serif;
     font-weight: 700;
@@ -3074,7 +3078,7 @@ section {
 }
 
 .map-info-container .info-wrapper .location-info h5 {
-    color: #fff;
+    color: #4C4747FF;
     font-family: Poppins, sans-serif;
     font-size: 15pt
 }
@@ -3178,7 +3182,7 @@ section {
 }
 
 .marker:hover {
-    border-color: #fff;
+    border-color: #4C4747FF;
     color: #fff
 }
 
@@ -3272,7 +3276,8 @@ section {
 .map_pins_full {
     padding: 11px 0;
     text-align: center;
-    background: linear-gradient(135deg, #807626, #c0a74e, #dccc7f);
+    background: linear-gradient(135deg, #807626, #c0a74e, #f1e08c);
+
     color: #fff
 }
 
@@ -3322,12 +3327,12 @@ section {
 }
 
 .bmaid-gmen-color .image .hover-info .h-lines {
-    border-top-color: #fff;
+    border-top-color: #4C4747FF;
     border-bottom-color: #fff
 }
 
 .bmaid-gmen-color .image .hover-info .v-lines {
-    border-left-color: #fff;
+    border-left-color: #4C4747FF;
     border-right-color: #fff
 }
 
@@ -3621,7 +3626,8 @@ section.side-flowers {
 
 .progress-wrapper .progress .progress-bar {
     width: 0;
-    background: linear-gradient(135deg, #807626, #c0a74e, #dccc7f);
+    background: linear-gradient(135deg, #807626, #c0a74e, #f1e08c);
+
     -moz-transition: width .5s ease-in-out;
     -o-transition: width .5s ease-in-out;
     -webkit-transition: width .5s ease-in-out;
@@ -3644,7 +3650,7 @@ section.side-flowers {
     top: 50%;
     left: 15px;
     margin-top: -40px;
-    color: #fff;
+    color: #4C4747FF;
     z-index: 2;
     cursor: pointer;
     padding: 10px;
@@ -3773,7 +3779,8 @@ section.side-flowers {
     padding-top: 120px;
     padding-bottom: 60px;
     position: relative;
-    background: linear-gradient(135deg, #807626, #c0a74e, #dccc7f);
+    background: linear-gradient(135deg, #807626, #c0a74e, #f1e08c);
+
     background-attachment: fixed;
     color: #fff
 }
@@ -3785,7 +3792,8 @@ section.side-flowers {
     position: absolute;
     left: 0;
     top: 0;
-    background: linear-gradient(135deg, #807626, #c0a74e, #dccc7f);
+    background: linear-gradient(135deg, #807626, #c0a74e, #f1e08c);
+
     z-index: 0;
     -khtml-opacity: 0.75;
     -moz-opacity: 0.75;
@@ -3797,7 +3805,7 @@ section.side-flowers {
 }
 
 .page-header .page-title {
-    color: #fff;
+    color: #4C4747FF;
     float: none;
     text-align: center;
     margin: 0 auto;
@@ -3929,8 +3937,9 @@ section.side-flowers {
     left: calc(var(--bs-gutter-x) * .5);
     padding: 8px 35px;
     margin: 0 0 0 -20px;
-    color: #fff;
-    background: linear-gradient(135deg, #807626, #c0a74e, #dccc7f);
+    color: #4C4747FF;
+    background: linear-gradient(135deg, #807626, #c0a74e, #f1e08c);
+
     border: 10px solid #fff;
     font-family: "Playfair Display", serif;
     font-size: 19pt
@@ -4443,7 +4452,7 @@ section.side-flowers {
     z-index: 9;
     visibility: hidden;
     text-decoration: none;
-    color: #fff;
+    color: #4C4747FF;
     text-align: center;
     font-size: 16pt;
     -khtml-opacity: 0;
@@ -4522,9 +4531,9 @@ section.side-flowers {
 }
 
 .widget-newsletter {
-    background: linear-gradient(135deg, #807626, #c0a74e, #dccc7f);
+    background: linear-gradient(135deg, #807626, #c0a74e, #f1e08c);
 
-    color: #fff;
+    color: #4c4747;
     padding: 30px;
     text-align: center;
     position: relative;
@@ -4553,7 +4562,7 @@ section.side-flowers {
 .widget-newsletter .neela-style {
     --offset: 10px;
     --border-size: 1px;
-    color: #fff;
+    color: #4C4747FF;
     position: relative;
     padding: 22px 30px;
     z-index: 1
@@ -4805,7 +4814,7 @@ textarea.form-control {
 }
 
 .form-check-input:checked[type=radio] {
-    background-color: #fff;
+    background-color: #4C4747FF;
     border-color: #807626;
     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='2' fill='%23807626'/%3e%3c/svg%3e");
     -webkit-box-shadow: none;
@@ -5077,7 +5086,7 @@ textarea.form-control {
     display: block;
     font-weight: 900;
     line-height: 1;
-    color: #fff;
+    color: #4C4747FF;
     font-size: 36pt;
     position: absolute;
     top: 50%;
@@ -5170,7 +5179,7 @@ textarea.form-control {
     height: 40px;
     outline: 0;
     font-weight: 900;
-    color: #fff;
+    color: #4C4747FF;
     font-size: 18pt;
     text-align: center;
     line-height: 30px;
