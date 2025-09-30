@@ -46,8 +46,13 @@ var Neela;
         },
         preloader: function () {
             var e = setInterval(function () {
-                /loaded|complete/.test(document.readyState) && (clearInterval(e), u("#preloader").fadeOut(1e3))
-            }, 10)
+                if (/loaded|complete/.test(document.readyState)) {
+                    clearInterval(e);
+                    setTimeout(function () {
+                        u("#preloader").fadeOut(1000); // исчезнет через 3 секунды
+                    }, 3000);
+                }
+            }, 10);
         },
         navigation: function () {
             u(".nav li a").on("click", function (e) {
